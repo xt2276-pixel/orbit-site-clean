@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>ORBIT Hub — Academic Layout</title>
+<style>
+:root{--duke:#012169;--duke2:#0b2b76;--link:#1954d6;--text:#111827;--border:#e5e7eb;--accent:#eff6ff;}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;color:var(--text);line-height:1.7}
+h1,h2,h3,h4{font-family:Georgia,'Times New Roman',Times,serif}
+a{color:var(--link)} a:focus{outline:3px solid #93c5fd;outline-offset:2px;border-radius:6px}
+.site-header{background:var(--duke);color:#fff}
+.site-header .wrap{max-width:1200px;margin:0 auto;padding:16px}
+.site-title{display:flex;gap:14px;align-items:center;text-decoration:none;color:#fff}
+.site-title .mark{width:46px;height:46px;border-radius:10px;background:var(--duke2);display:grid;place-items:center;font-weight:800}
+.site-title h1{margin:0;font-size:24px}
+.site-sub{margin:2px 0 0;font-size:13px;opacity:.9}
+.top-nav{background:var(--duke2)} .top-nav .wrap{max-width:1200px;margin:0 auto;display:flex;gap:16px;overflow:auto;padding:8px 16px}
+.top-nav a{color:#c7d2fe;text-decoration:none;padding:6px 10px;border-radius:6px;white-space:nowrap}
+.top-nav a:hover{background:rgba(255,255,255,.08)}
+.wrap-main{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:260px 1fr 300px;gap:24px;padding:24px 16px}
+@media (max-width:1080px){.wrap-main{grid-template-columns:240px 1fr}.rcol{display:none}} @media (max-width:760px){.wrap-main{grid-template-columns:1fr}.lcol{display:none}}
+.lcol{border-right:1px solid var(--border)} .sidebar-nav{position:sticky;top:14px} .sidebar-nav h3{font-size:16px;margin:0 0 8px}
+.nav-list{list-style:none;padding:0;margin:0;display:grid;gap:4px} .nav-list a{display:block;padding:8px 10px;border-radius:8px;text-decoration:none;color:var(--text)} .nav-list a:hover{background:var(--accent)} .nav-list .sub{padding-left:18px;font-size:14px}
+.breadcrumb{font-size:13px;color:#6b7280;margin-bottom:8px} .breadcrumb a{color:#6b7280;text-decoration:none}
+.content h2{margin:18px 0 6px;font-size:28px} .content p{margin:10px 0} .pill{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:12px;margin-right:6px;margin-top:6px}
+.box{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px} .muted{color:#6b7280} .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px} @media (max-width:920px){.two-col{grid-template-columns:1fr}}
+.widget{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:16px} .widget h3{margin:0 0 8px;font-size:18px}
+.item{padding:10px;border:1px solid var(--border);border-radius:10px;margin:6px 0;background:#fff} .small{font-size:14px}
+.btn{display:inline-block;background:#24478f;color:#fff;text-decoration:none;border-radius:999px;padding:10px 16px;font-weight:600} .btn:hover{background:#315eb1}
+footer{border-top:1px solid var(--border);background:#fff;margin-top:24px}
+.foot-wrap{max-width:1200px;margin:0 auto;padding:20px 16px;display:grid;gap:18px;grid-template-columns:2fr 1fr 1fr}
+@media (max-width:920px){.foot-wrap{grid-template-columns:1fr}} .fine{font-size:12px;color:#6b7280;text-align:center;padding:10px}
+.skip{position:absolute;left:-9999px} .skip:focus{left:12px;top:12px;background:#111827;color:#fff;padding:8px 10px;border-radius:8px;z-index:1000}
+.list{padding-left:18px;margin:8px 0} .card{border:1px solid var(--border);border-radius:12px;padding:14px;background:#fff}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="site-header" role="banner"><div class="wrap"><a class="site-title" href="#overview"><div class="mark">OR</div><div><h1>ORBIT — Observational Research Building Interdisciplinary Therapeutic Advances</h1><div class="site-sub">Hosted by Duke Clinical Research Institute</div></div></a></div>
+<nav class="top-nav" aria-label="Top"><div class="wrap"><a href="#overview">Overview</a><a href="#objectives">Objectives</a><a href="#apply">Apply</a><a href="#team">Team</a><a href="#news">News</a><a href="#events">Events</a><a href="#publications">Publications</a><a href="#resources">Resources</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div></nav>
+</header>
+<div class="wrap-main">
+  <aside class="lcol" aria-label="Section navigation">
+    <nav class="sidebar-nav"><h3>ORBIT Hub</h3><ul class="nav-list">
+      <li><a href="#overview">About</a></li><li><a href="#objectives" class="sub">Objectives</a></li><li><a href="#apply">Apply</a></li><li><a href="#team">People</a></li><li><a href="#news">News</a></li><li><a href="#events">Events</a></li><li><a href="#publications">Publications</a></li><li><a href="#resources">Resources</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li>
+    </ul></nav>
+  </aside>
+  <main id="main" class="content" role="main" aria-labelledby="page-title">
+    <div class="breadcrumb"><a href="#">Home</a> / ORBIT</div>
+    <h2 id="page-title">Accelerating Therapeutic Advances with Real‑World Evidence</h2>
+    <p class="muted">ORBIT brings together investigators across AI, economics, statistics, data science, population health, and clinical medicine to develop methods and tools that harness real‑world data for more efficient medical evidence generation and smarter, faster clinical trials.</p>
+    <section id="overview" class="card" aria-labelledby="overview-heading"><h3 id="overview-heading">About ORBIT</h3>
+      <p>There is an unmet need for more efficient approaches to medical evidence generation that can inform physicians, policymakers, business, and the public. ORBIT focuses on two core objectives: (1) developing techniques and tools to use real‑world data to answer questions that might otherwise require randomized controlled trials; and (2) making randomized trials more efficient by overlaying observational data with advances in AI and data science.</p>
+      <div><span class="pill" style="border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:12px;margin-right:6px">Real‑World Evidence</span><span class="pill" style="border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:12px;margin-right:6px">Causal Inference</span><span class="pill" style="border:1px solid var(--border);border-radius:999px;padding:4px 10px;font-size:12px;margin-right:6px">AI & Machine Learning</span></div>
+    </section>
+    <section id="objectives" class="two-col" aria-labelledby="obj-heading">
+      <div class="box"><h3 id="obj-heading">Objectives</h3><ul class="list">
+        <li><strong>Methodological Innovation</strong> — Develop and validate causal inference methods and trial‑augmentation designs using observational data.</li>
+        <li><strong>Training & Workforce</strong> — Seminars, workshops, and fellowships to upskill investigators in RWE and AI.</li>
+        <li><strong>Data & Tools</strong> — Curated datasets, reproducible code, and open‑source tools to accelerate evidence generation.</li>
+        <li><strong>Ethics & Governance</strong> — Privacy, fairness, transparency, and patient engagement across projects.</li>
+      </ul></div>
+      <div class="box"><h3>Host & Leadership</h3><p><strong>Host:</strong> Duke Clinical Research Institute (DCRI)</p><p><strong>Lead:</strong> Brian Mac Grory, Associate Professor of Neurology</p></div>
+    </section>
+    <section id="apply" class="card" aria-labelledby="apply-heading">
+      <h3 id="apply-heading">Apply for ORBIT Funding</h3>
+      <div class="two-col">
+        <div>
+          <h4>Overview</h4><ul class="list"><li>Funding tracks: Methods, Pilot Studies, Infrastructure/Tools.</li><li>Typical award: $25,000–$100,000 for 6–12 months.</li><li>Review criteria: Significance, Innovation, Rigor, Team, Feasibility, Impact on RWE.</li></ul>
+          <h4>Eligibility</h4><ul class="list"><li>Lead PI: faculty or research staff; trainees may apply with a mentor.</li><li>Include a NIH-aligned Data Management & Sharing plan.</li><li>IRB approval (or exemption) required before start for human data.</li></ul>
+        </div>
+        <div>
+          <h4>Timeline</h4><ol class="list"><li>Notice: January 15</li><li>LOI: February 15</li><li>Proposals: March 31</li><li>Decisions: May 15</li><li>Start: July 1</li></ol>
+          <h4>Requirements</h4><ul class="list"><li>Open science where feasible.</li><li>Quarterly updates and final report.</li><li>Acknowledge ORBIT and DCRI.</li></ul>
+          <p><a class="btn" href="#" aria-label="Launch Application Portal">Launch Application Portal</a> <span class="small" style="margin-left:10px"><a href="#" download>Download RFP (PDF)</a></span></p>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="card" aria-labelledby="team-heading"><h3 id="team-heading">Team</h3>
+      <div class="two-col">
+        <div><h4>Lead</h4><p>Brian Mac Grory, Associate Professor of Neurology<br><span class="muted small">Duke University; Duke Clinical Research Institute</span></p></div>
+        <div><h4>Core Members</h4><ul class="list"><li>Fan Li — Professor of Statistical Science</li><li>Laine Thomas — Professor of Biostatistics & Bioinformatics</li><li>Ryan McDevitt — Professor of Business Administration</li><li>Anqi Zhao — Assistant Professor of Business Administration</li><li>Emily O’Brien — Associate Professor of Population Health Sciences</li><li>Ricardo Henao — Associate Professor of Biostatistics & Bioinformatics</li></ul></div>
+      </div>
+    </section>
+    <section id="news" class="card" aria-labelledby="news-heading"><h3 id="news-heading">News</h3>
+      <div class="item">ORBIT hosts inaugural seminar on causal inference with observational data <span class="small muted">— 09/08/2025</span></div>
+      <div class="item">Upcoming: Sample size &amp; power in causal inference (Oct 2) <span class="small muted">— 10/02/2025</span></div>
+    </section>
+    <section id="events" class="card" aria-labelledby="events-heading"><h3 id="events-heading">Events</h3>
+      <div class="item"><strong>Principles of Causal Inference Using Observational Data</strong><br><span class="small muted">09/08/2025 — Duke University (virtual and in‑person)</span></div>
+      <div class="item"><strong>Sample Size &amp; Power in Causal Inference with Observational Data</strong><br><span class="small muted">10/02/2025 — Duke University (virtual)</span></div>
+    </section>
+    <section id="publications" class="card" aria-labelledby="pubs-heading"><h3 id="pubs-heading">Publications</h3>
+      <ul class="list"><li><a href="#">Uptake and Safety of Anti‑Amyloid Immunotherapies: Real‑world evidence</a> — medRxiv, 2025</li></ul>
+    </section>
+    <section id="resources" class="card" aria-labelledby="resources-heading"><h3 id="resources-heading">Resources</h3>
+      <div class="two-col">
+        <div class="box"><h4>Data Management &amp; Sharing</h4><p class="small muted">Guidance for preparing a compliant DMS Plan; repositories and metadata standards.</p><p class="small"><a href="https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies/dms/policy-overview" target="_blank" rel="noreferrer">NIH DMS Policy ↗</a></p></div>
+        <div class="box"><h4>Accessibility (WCAG 2.2 AA)</h4><p class="small muted">Ensure tools and outputs meet inclusive design standards for diverse users.</p><p class="small"><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noreferrer">WCAG 2.2 ↗</a></p></div>
+      </div>
+    </section>
+    <section id="faq" class="card" aria-labelledby="faq-heading"><h3 id="faq-heading">FAQ</h3>
+      <details class="item"><summary><strong>What types of projects are a good fit?</strong></summary><div class="small muted">Causal inference with observational data, AI‑enabled trial augmentation, pragmatic trial design, and enabling infrastructure.</div></details>
+      <details class="item"><summary><strong>Do I need preliminary data?</strong></summary><div class="small muted">Not required for methods/infrastructure tracks; helpful for pilot studies.</div></details>
+      <details class="item"><summary><strong>What about human subjects protections?</strong></summary><div class="small muted">IRB approval or exemption before start, HIPAA compliance, and governance plans.</div></details>
+    </section>
+    <section id="contact" class="card" aria-labelledby="contact-heading"><h3 id="contact-heading">Contact</h3>
+      <p class="muted">Questions about eligibility, scope, or application materials? Get in touch.</p>
+      <form class="two-col" onsubmit="event.preventDefault();alert('Thanks! We will be in touch.');">
+        <label class="small">Name<br><input type="text" required placeholder="Your name" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px"></label>
+        <label class="small">Email<br><input type="email" required placeholder="you@example.edu" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px"></label>
+        <label class="small" style="grid-column:1/-1">Message<br><textarea required rows="5" placeholder="How can we help?" style="width:100%;padding:10px;border:1px solid var(--border);border-radius:8px"></textarea></label>
+        <div><button type="submit" class="btn">Send</button></div>
+      </form>
+    </section>
+  </main>
+  <aside class="rcol" aria-label="Sidebar">
+    <div class="widget"><h3>Quick Links</h3><ul class="list small"><li><a href="#apply">Apply for Funding</a></li><li><a href="#resources">Data &amp; Tools</a></li><li><a href="#publications">Publications</a></li></ul></div>
+    <div class="widget"><h3>Contact</h3><p class="small">Duke Clinical Research Institute<br>Durham, NC</p><p class="small"><a href="#contact">Contact form</a></p></div>
+    <div class="widget"><h3>Acknowledgment</h3><p class="small muted">Please acknowledge ORBIT and the host institution in publications and presentations.</p></div>
+  </aside>
+</div>
+<footer role="contentinfo"><div class="foot-wrap"><div><strong>ORBIT</strong><p class="small muted">Observational Research Building Interdisciplinary Therapeutic Advances</p></div><div><strong>Accessibility</strong><p class="small muted">We aim to meet WCAG 2.2 AA.</p></div><div><strong>Policies</strong><ul class="list small"><li><a href="#">Privacy</a></li><li><a href="#">Conflict of Interest</a></li><li><a href="#">Attribution &amp; Acknowledgment</a></li></ul></div></div><div class="fine">© <span id="y"></span> ORBIT Hub • Duke Clinical Research Institute</div></footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body></html>
